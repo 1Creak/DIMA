@@ -2,38 +2,77 @@
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: black;
-    padding: 30px 0;
+body{
+}
+h1{
     text-align: center;
+    margin-top: 30px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900 ;
+}
+img{
+    
     
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
 nav a{
-    background-color: blanchedalmond;
+background-color: brown;
+text-decoration: none;
+font-size: 18px;
+font-weight: 700;
+color: cornsilk;
+padding: 5px;
+border-radius: 5px;
 }
-.product {
-    width: 150px;
+title{
+    
+}
+main{
+    background-color: yellow;
+    padding: 40px 0;
+}
+h3{
     text-align: center;
-    padding: 10px;
-    border: 5px double orange;
-    background-color: bisque;
-    margin: 40px 0px 40px 80px;
 }
-a {
-    text-decoration: none;
-    color: black;
-    border-bottom: 1px dotted black;
-    font-size: 20px;
-}
-.catalog{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.servis{
+h4{
     text-align: center;
-    background-color: green;
+}
+
+main {
+    text-align: center;
+}
+.gallery{
     display: flex;
-    flex-wrap: wrap;
+    gap: 50px;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.gallery img {
+    border: 4px black double;
+    width: 200px;
+}
+.big-img{
+    width: 500px;
+    border: 4px black double;
+}
+footer{
+    background-color: darkgray;
+    text-align: center;
+}
+main{
+    text-align: center;
 }
